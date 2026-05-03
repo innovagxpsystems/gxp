@@ -124,7 +124,7 @@ Open [http://localhost:3000](http://localhost:3000)
 | `/about` | Company story, mission/vision/values, leadership team |
 | `/services/quality` | Quality Services (GxP Auditing, QMS, Mock Inspection, etc.) |
 | `/services/clinical` | Clinical Services (Site Monitoring, TMF Management) |
-| `/services/it-csv` | IT & CSV Services (CSV, SQA, Infrastructure Qualification) |
+| `/services/it-csv` | CSV Services (CSV, SQA, Infrastructure Qualification) |
 | `/careers` | Job listings from Supabase |
 | `/careers/[id]` | Individual job detail + application form |
 | `/contact` | Contact form → saves to Supabase |

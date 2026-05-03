@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle, Cpu, Code, Server } from "lucide-react";
 import { FadeInSection } from "@/components/ui/FadeInSection";
 
 export const metadata: Metadata = {
-  title: "IT & CSV Services",
+  title: "CSV Services",
   description:
     "Computer System Validation, Software Quality Assurance, and Infrastructure Qualification for GxP environments.",
 };
@@ -66,10 +66,10 @@ export default function ITCSVServicesPage() {
             <div className="flex items-center gap-2 text-orange-400 text-sm mb-4">
               <Link href="/" className="hover:text-white transition-colors">Home</Link>
               <span>/</span>
-              <span>IT & CSV Services</span>
+              <span>CSV Services</span>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6" style={{ fontFamily: "var(--font-display)" }}>
-              IT & CSV Services
+              CSV Services
             </h1>
             <p className="text-slate-300 text-xl max-w-2xl leading-relaxed">
               Validation and quality assurance for GxP computerized systems and

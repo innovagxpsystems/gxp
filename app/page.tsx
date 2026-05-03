@@ -59,7 +59,7 @@ const SERVICES_PREVIEW = [
   },
   {
     icon: Cpu,
-    title: "IT & CSV Services",
+    title: "CSV Services",
     desc: "Computer system validation, software quality assurance, and infrastructure qualification for GxP systems.",
     href: "/services/it-csv",
   },

@@ -30,7 +30,7 @@ const NAV_ITEMS = [
     ],
   },
   {
-    label: "IT & CSV Services",
+    label: "CSV Services",
     href: "/services/it-csv",
     children: [
       { label: "Computer System Validation", href: "/services/it-csv#csv" },

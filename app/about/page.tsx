@@ -30,7 +30,7 @@ const LEADERSHIP = [
   },
   {
     name: "JKL",
-    role: "VP, IT & CSV Services",
+    role: "VP, CSV Services",
     bio: "GAMP5 practitioner and validation expert specializing in 21 CFR Part 11 and Annex 11 compliance.",
     initials: "MT",
   },

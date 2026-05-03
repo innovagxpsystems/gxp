@@ -4,7 +4,7 @@ import { Mail, MapPin, Phone, Linkedin, Facebook, Instagram } from "lucide-react
 const SERVICES = [
   { label: "Quality Services", href: "/services/quality" },
   { label: "Clinical Services", href: "/services/clinical" },
-  { label: "IT & CSV Services", href: "/services/it-csv" },
+  { label: "CSV Services", href: "/services/it-csv" },
 ];
 
 const COMPANY = [

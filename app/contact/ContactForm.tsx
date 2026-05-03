@@ -26,9 +26,9 @@ const SERVICE_OPTIONS = [
   "Quality Services — Training",
   "Clinical Services — Site Monitoring",
   "Clinical Services — TMF Management",
-  "IT & CSV — Computer System Validation",
-  "IT & CSV — Software QA",
-  "IT & CSV — Infrastructure Qualification",
+  "CSV — Computer System Validation",
+  "CSV — Software QA",
+  "CSV — Infrastructure Qualification",
   "General Inquiry",
 ];
 
