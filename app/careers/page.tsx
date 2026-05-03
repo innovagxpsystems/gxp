@@ -7,7 +7,7 @@ import { createClient } from "@/lib/supabase/server";
 export const metadata: Metadata = {
   title: "Careers",
   description:
-    "Join Innova GXP Systems — explore open positions in quality, clinical, and IT validation.",
+    "Join Innova GxP Systems — explore open positions in quality, clinical, and IT validation.",
 };
 
 const TYPE_BADGE: Record<string, string> = {

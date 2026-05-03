@@ -35,7 +35,7 @@ export function Footer() {
                   className="text-2xl font-bold text-white"
                   style={{ fontFamily: "var(--font-display)" }}
                 >
-                  Innova GXP Systems
+                  Innova GxP Systems
                 </div>
                 <div className="text-[8px] tracking-[0.2em] text-orange-400 uppercase mt-2">
                 ssured Compliance. Accelerated Progress.
@@ -134,9 +134,11 @@ export function Footer() {
               <li className="flex items-start gap-3 text-sm">
                 <MapPin size={15} className="mt-0.5 shrink-0 text-orange-500" />
                 <span>
-                  6101 Bollinger Canyon Road, Suite 336
+                4- Charmian Street , 
                   <br />
-                  San Ramon, California 94583
+                  Huntington Station, 
+                  <br />
+                  New York, 11746
                 </span>
               </li>
               <li className="flex items-start gap-3 text-sm">
@@ -154,7 +156,7 @@ export function Footer() {
       <div className="border-t border-stone-900">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} Innova GXP Systems. All Rights Reserved.
+            © {new Date().getFullYear()} Innova GxP Systems. All Rights Reserved.
           </p>
           <div className="flex gap-6">
             {LEGAL.map((item) => (

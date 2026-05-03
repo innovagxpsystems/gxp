@@ -6,7 +6,7 @@ import { FadeInSection } from "@/components/ui/FadeInSection";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Innova GXP Systems — our mission, values, and the team driving GxP excellence in life sciences.",
+    "Learn about Innova GxP Systems — our mission, values, and the team driving GxP excellence in life sciences.",
 };
 
 const LEADERSHIP = [
@@ -136,7 +136,7 @@ export default function AboutPage() {
                 <div className="space-y-4 text-slate-500 leading-relaxed">
                   <p>
                     Founded by industry veterans who recognized the growing complexity of
-                    regulatory compliance in life sciences, Innova GXP Systems was built to
+                    regulatory compliance in life sciences, Innova GxP Systems was built to
                     bridge the gap between regulatory requirements and business realities.
                   </p>
                   <p>

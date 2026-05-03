@@ -6,7 +6,7 @@ import { ContactForm } from "./ContactForm";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Get in touch with Innova GXP Systems — we're ready to help with your GxP compliance needs.",
+    "Get in touch with Innova GxP Systems — we're ready to help with your GxP compliance needs.",
 };
 
 const OFFICES = [
