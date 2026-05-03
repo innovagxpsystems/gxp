@@ -6,11 +6,11 @@ import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: {
-    default: "Innova GxP Systems | GxP Quality, Clinical & Validation Services",
-    template: "%s | Innova GxP Systems",
+    default: "InnovaGxP Systems | GxP Quality, Clinical & Validation Services",
+    template: "%s | InnovaGxP Systems",
   },
   description:
-    "Innova GxP Systems is an integrated Validation, Automation, Quality, and Clinical business solutions provider to global pharmaceutical, biotechnology, and medical device companies.",
+    "InnovaGxP Systems is an integrated Validation, Automation, Quality, and Clinical business solutions provider to global pharmaceutical, biotechnology, and medical device companies.",
   keywords: [
     "GxP auditing",
     "pharmaceutical consulting",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Innova GxP Systems",
+    siteName: "InnovaGxP Systems",
   },
 };
 

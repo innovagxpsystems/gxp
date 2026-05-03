@@ -100,7 +100,7 @@ export default function HomePage() {
           </h1>
 
           <p className="text-lg text-slate-300 leading-relaxed mb-10 max-w-xl">
-            Innova GxP Systems empowers pharmaceutical, medical device, and
+            InnovaGxP Systems empowers pharmaceutical, medical device, and
             biotech companies with the expertise to navigate regulatory
             challenges — ensuring successful authority inspections and driving
             innovation.
@@ -167,7 +167,7 @@ export default function HomePage() {
                   Your Trusted Partner in Life Sciences Compliance
                 </h2>
                 <p className="text-slate-500 leading-relaxed mb-4">
-                  Innova GxP Systems is an integrated Validation, Automation,
+                  InnovaGxP Systems is an integrated Validation, Automation,
                   Quality, and Clinical business solutions provider to global
                   pharmaceutical, biotechnology, and medical device companies.
                 </p>

@@ -35,7 +35,7 @@ export function Footer() {
                   className="text-2xl font-bold text-white"
                   style={{ fontFamily: "var(--font-display)" }}
                 >
-                  Innova GxP Systems
+                  InnovaGxP Systems
                 </div>
                 <div className="text-[8px] tracking-[0.2em] text-orange-400 uppercase mt-2">
                 ssured Compliance. Accelerated Progress.
@@ -156,7 +156,7 @@ export function Footer() {
       <div className="border-t border-stone-900">
         <div className="max-w-7xl mx-auto px-6 py-5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} Innova GxP Systems. All Rights Reserved.
+            © {new Date().getFullYear()} InnovaGxP Systems. All Rights Reserved.
           </p>
           <div className="flex gap-6">
             {LEGAL.map((item) => (

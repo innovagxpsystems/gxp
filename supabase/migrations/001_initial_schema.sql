@@ -124,7 +124,7 @@ INSERT INTO jobs (title, department, location, type, description, requirements) 
 ),
 (
   'Computer System Validation (CSV) Specialist',
-  'IT & CSV Services',
+  'CSV Services',
   'Hyderabad, India / Remote',
   'full-time',
   'We are seeking a CSV Specialist to support our IT and validation team. You will develop and execute validation protocols for computerized systems used in GxP environments.',

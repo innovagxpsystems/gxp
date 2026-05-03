@@ -112,7 +112,7 @@ export function Navbar() {
                   )}
                   style={{ fontFamily: "var(--font-display)" }}
                 >
-                  Innova GxP Systems
+                  InnovaGxP Systems
                 </span>
                 <span
                   className={clsx(
