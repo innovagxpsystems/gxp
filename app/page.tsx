@@ -115,9 +115,8 @@ export default function HomePage() {
             </Link>
           </div>
 
-          {/* Stats */}
           {/* Stats — floating white card strip */}
-          <div className="relative z-10 mt-20">
+          <div className="relative z-10 mt-20 hidden md:block">
             <div className="mx-6 md:mx-12 lg:mx-24 bg-white rounded-2xl shadow-2xl shadow-black/30 px-8 py-10">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-0 divide-y md:divide-y-0 md:divide-x divide-slate-100">
                 {STATS.map((stat, i) => (
