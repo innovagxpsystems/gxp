@@ -2,14 +2,11 @@
 -- innovagxpsystems Clone - Initial Database Schema
 -- ============================================================
 
--- Enable UUID extension
-CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
-
 -- ============================================================
 -- CONTACT SUBMISSIONS
 -- ============================================================
 CREATE TABLE IF NOT EXISTS contact_submissions (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   created_at TIMESTAMPTZ DEFAULT NOW(),
   name TEXT NOT NULL,
   email TEXT NOT NULL,
@@ -41,7 +38,7 @@ CREATE POLICY "Admins can update contact submissions"
 -- JOBS
 -- ============================================================
 CREATE TABLE IF NOT EXISTS jobs (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   created_at TIMESTAMPTZ DEFAULT NOW(),
   title TEXT NOT NULL,
   department TEXT NOT NULL,
@@ -68,7 +65,7 @@ CREATE POLICY "Admins can manage jobs"
 -- JOB APPLICATIONS
 -- ============================================================
 CREATE TABLE IF NOT EXISTS job_applications (
-  id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   created_at TIMESTAMPTZ DEFAULT NOW(),
   job_id UUID REFERENCES jobs(id) ON DELETE CASCADE,
   full_name TEXT NOT NULL,
