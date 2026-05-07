@@ -104,24 +104,12 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex items-center justify-between h-20">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3 group">
-              <div className="flex flex-col">
-                <span
-                  className={clsx(
-                    "text-3xl font-bold tracking-tight transition-colors text-orange-500",
-                  )}
-                  style={{ fontFamily: "var(--font-display)" }}
-                >
-                  InnovaGxP Systems
-                </span>
-                <span
-                  className={clsx(
-                    "text-[9px] tracking-[0.2em] uppercase font-medium transition-colors text-emerald-400",
-                  )}
-                >
-                  Assured Compliance. Accelerated Progress.
-                </span>
-              </div>
+            <Link href="/" className="flex items-center group">
+              <img
+                src="/in.png"
+                alt="InnovaGxP Systems"
+                className="h-20 w-auto object-contain"
+              />
             </Link>
 
             {/* Desktop nav */}
