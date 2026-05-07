@@ -106,7 +106,7 @@ export function Navbar() {
             {/* Logo */}
             <Link href="/" className="flex items-center group">
               <img
-                src="/in.png"
+                src="/IN.png"
                 alt="InnovaGxP Systems"
                 className="h-20 w-auto object-contain"
               />
