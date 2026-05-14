@@ -96,7 +96,7 @@ INSERT INTO jobs (title, department, location, type, description, requirements) 
 (
   'GxP Quality Auditor',
   'Quality Services',
-  'San Ramon, CA / Remote',
+  'New York, CA / Remote',
   'full-time',
   'We are looking for an experienced GxP Quality Auditor to join our growing Quality Services team. You will conduct audits across pharmaceutical, biotechnology, and medical device clients ensuring regulatory compliance.',
   ARRAY[

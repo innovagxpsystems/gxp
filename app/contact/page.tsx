@@ -11,22 +11,22 @@ export const metadata: Metadata = {
 
 const OFFICES = [
   {
-    city: "San Ramon",
-    country: "California, USA",
-    address: "6101 Bollinger Canyon Road, Suite 336\nSan Ramon, California 94583",
-    flag: "🇺🇸",
-  },
-  {
-    city: "Raleigh",
-    country: "North Carolina, USA",
-    address: "North Carolina Office\nUnited States",
+    city: "New York",
+    country: "New York, USA",
+    address: "4- Charmian Street,\nHuntington Station,\nNew York, 11746, USA",
     flag: "🇺🇸",
   },
   {
     city: "Hyderabad",
     country: "Telangana, India",
-    address: "Hyderabad Office\nTelangana, India",
+    address: "Address will be updated soon",
     flag: "🇮🇳",
+  },
+  {
+    city: "Canada",
+    country: "Canada",
+    address: "Address will be updated soon",
+    flag: "🇨🇦",
   },
 ];
 
@@ -104,7 +104,7 @@ export default function ContactPage() {
                     </a>
 
                     <a
-                      href="tel:+18000000000"
+                      href="tel:+12148075554"
                       className="flex items-start gap-4 group"
                     >
                       <div className="w-10 h-10 bg-orange-100 rounded-sm flex items-center justify-center shrink-0 group-hover:bg-orange-500 transition-colors duration-200">

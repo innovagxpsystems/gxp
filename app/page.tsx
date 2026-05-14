@@ -8,32 +8,34 @@ import { useState } from "react";
 
 const OFFICES = [
   {
-    city: "San Ramon",
-    country: "California, USA",
+    city: "New York",
+    country: "New York, USA",
+    address: "4- Charmian Street,\nHuntington Station,\nNew York, 11746, USA",
     flag: "🇺🇸",
-    status: "active",
-    mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0!2d-121.9539616!3d37.7643595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808ff40a6a4b6b8b%3A0xf576e53ab5e07f2d!2sSan%20Ramon%2C%20CA!5e0!3m2!1sen!2sus!4v1700000000000",
-  },
-  {
-    city: "North Carolina",
-    country: "USA",
-    flag: "🇺🇸",
-    status: "active",
-    mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.0!2d-78.6381787!3d35.7795897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ac5a2f9f51e0f5%3A0x67889b7a4ed5e8c!2sRaleigh%2C%20NC!5e0!3m2!1sen!2sus!4v1700000000001",
+    position: {
+      left: "33%",
+      top: "35%",
+    },
   },
   {
     city: "Hyderabad",
-    country: "India",
+    country: "Telangana, India",
+    address: "Address will be updated soon",
     flag: "🇮🇳",
-    status: "active",
-    mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.0!2d78.47724389999999!3d17.406498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20India!5e0!3m2!1sen!2sus!4v1700000000002",
+    position: {
+      left: "66%",
+      top: "47%",
+    },
   },
   {
-    city: "Dublin",
-    country: "Ireland",
-    flag: "🇮🇪",
-    status: "coming",
-    mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.0!2d-6.2603097!3d53.3498053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e9f28d5deb7%3A0x0a079e0e1dfc1c60!2sDublin%2C%20Ireland!5e0!3m2!1sen!2sus!4v1700000000003",
+    city: "Canada",
+    country: "Canada",
+    address: "Address will be updated soon",
+    flag: "🇨🇦",
+    position: {
+      left: "24%",
+      top: "24.5%",
+    },
   },
 ];
 
@@ -172,7 +174,7 @@ export default function HomePage() {
                   pharmaceutical, biotechnology, and medical device companies.
                 </p>
                 <p className="text-slate-500 leading-relaxed mb-8">
-                  With offices in California, North Carolina, and Hyderabad, our
+                  With offices in USA, Canada and India, our
                   team combines deep regulatory expertise with practical
                   industry experience to deliver measurable results for our
                   clients worldwide.
@@ -186,7 +188,7 @@ export default function HomePage() {
             <FadeInSection direction="right" delay={200}>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { label: "FDA Compliance", pct: 98 },
+                  { label: "FDA Compliance", pct: 100 },
                   { label: "EMA Compliance", pct: 96 },
                   { label: "ICH Guidelines", pct: 99 },
                   { label: "Client Satisfaction", pct: 97 },
@@ -281,69 +283,71 @@ export default function HomePage() {
                 Supporting Clients Worldwide
               </h2>
               <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-                With offices in California, North Carolina, Hyderabad, and
-                Dublin (coming soon), we provide localized expertise across
+                With offices in USA, Canada and India, we provide localized expertise across
                 diverse markets.
               </p>
             </div>
           </FadeInSection>
 
           {/* Global Presence — Map + Cards */}
-<div className="mt-12 grid lg:grid-cols-3 gap-0 rounded-xl overflow-hidden border border-stone-700 shadow-2xl">
 
-{/* Left: office list */}
-<div className="bg-stone-900 p-6 flex flex-col gap-2 lg:col-span-1">
-  {OFFICES.map((office, i) => (
-    <div
-      key={i}
-      onClick={() => setActiveOffice(i)}
-      className={`flex items-center gap-4 p-3 rounded-lg transition-all duration-200 cursor-pointer group border ${
-        activeOffice === i
-          ? "bg-stone-800 border-orange-500/50"
-          : "border-transparent hover:bg-stone-800"
-      }`}
-    >
-      <span className="text-3xl">{office.flag}</span>
-      <div className="flex-1">
-        <div
-          className={`font-semibold text-sm transition-colors ${
-            activeOffice === i ? "text-orange-400" : "text-white"
-          }`}
-          style={{ fontFamily: "var(--font-display)" }}
-        >
-          {office.city}
-        </div>
-        <div className="text-slate-400 text-xs">{office.country}</div>
-      </div>
-      {office.status === "coming" ? (
-        <span className="text-xs px-2 py-0.5 bg-amber-500/20 text-amber-400 rounded-full border border-amber-500/30 shrink-0">
-          Soon
-        </span>
-      ) : (
-        <span className={`w-2 h-2 rounded-full shrink-0 transition-colors ${
-          activeOffice === i ? "bg-orange-400 animate-pulse" : "bg-emerald-400"
-        }`} />
-      )}
-    </div>
-  ))}
-</div>
+          <div className="relative w-full aspect-[2/1] overflow-hidden rounded-2xl border border-stone-800 bg-sky-100">
+            {/* World Map */}
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg"
+              alt="World Map"
+              className="absolute inset-0 w-full h-full object-contain"
+            />
 
-{/* Right: embedded map */}
-<div className="lg:col-span-2 h-80 lg:h-auto">
-  <iframe
-    key={activeOffice}
-    title="Global Offices"
-    src={OFFICES[activeOffice].mapSrc}
-    width="100%"
-    height="100%"
-    style={{ border: 0, minHeight: "320px" }}
-    allowFullScreen
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-  />
-</div>
+            {/* Office Locations */}
+            {OFFICES.map((office, i) => (
+              <div
+                key={i}
+                className="absolute -translate-x-1/2 -translate-y-1/2"
+                style={{
+                  left: office.position.left,
+                  top: office.position.top,
+                }}
+              >
+                {/* Pin */}
+                <button
+                  onClick={() => setActiveOffice(activeOffice === i ? null : i)}
+                  className="relative flex flex-col items-center focus:outline-none"
+                >
+                  {/* Ping */}
+                  <div className="absolute w-4 h-4 md:w-5 md:h-5 bg-orange-500 rounded-full animate-ping opacity-60" />
 
-</div>
+                  {/* Dot */}
+                  <div className="w-4 h-4 md:w-5 md:h-5 bg-orange-500 rounded-full border-2 md:border-4 border-white shadow-lg relative z-10 hover:scale-110 transition-transform duration-200" />
+
+                  {/* Info Box */}
+                  <div
+                    className={`absolute top-8 md:top-10 transition-all duration-300 ${
+                      activeOffice === i
+                        ? "opacity-100 scale-100 visible"
+                        : "opacity-0 scale-95 invisible"
+                    }`}
+                  >
+                    <div className="bg-white/95 px-2 py-1 md:px-3 md:py-2 rounded-xl shadow-xl border border-orange-200 backdrop-blur-sm min-w-[140px] md:min-w-[220px]">
+                      <div className="flex items-center gap-2 mb-1">
+                        <span className="text-xs md:text-base">
+                          {office.flag}
+                        </span>
+
+                        <p className="text-[10px] md:text-sm font-bold text-orange-600">
+                          {office.city}
+                        </p>
+                      </div>
+
+                      <p className="text-[9px] md:text-xs text-slate-600 whitespace-pre-line">
+                        {office.address}
+                      </p>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 

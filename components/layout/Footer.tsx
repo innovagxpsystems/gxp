@@ -118,7 +118,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="tel:+18000000000"
+                  href="tel:+12148075554"
                   className="flex items-start gap-3 text-sm text-slate-400 hover:text-orange-400 transition-colors group"
                 >
                   <Phone size={15} className="mt-0.5 shrink-0 text-orange-500" />
@@ -132,7 +132,7 @@ export function Footer() {
                   <br />
                   Huntington Station, 
                   <br />
-                  New York, 11746
+                  New York, 11746, USA
                 </span>
               </li>
               <li className="flex items-start gap-3 text-sm">

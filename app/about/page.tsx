@@ -163,7 +163,7 @@ export default function AboutPage() {
       </section>
 
       {/* Leadership */}
-      <section id="leadership" className="py-24 bg-white">
+      {/* <section id="leadership" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <FadeInSection>
             <div className="text-center mb-16">
@@ -199,7 +199,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
