@@ -68,7 +68,7 @@ const SERVICES_PREVIEW = [
 ];
 
 export default function HomePage() {
-  const [activeOffice, setActiveOffice] = useState(0);
+  const [activeOffice, setActiveOffice] = useState<number | null>(0);
   return (
     <>
       {/* ===== HERO ===== */}
