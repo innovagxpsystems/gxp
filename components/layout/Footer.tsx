@@ -122,7 +122,7 @@ export function Footer() {
                   className="flex items-start gap-3 text-sm text-slate-400 hover:text-orange-400 transition-colors group"
                 >
                   <Phone size={15} className="mt-0.5 shrink-0 text-orange-500" />
-                  +1 (800) 000-0000
+                  +1 (214) 807-5554
                 </a>
               </li>
               <li className="flex items-start gap-3 text-sm">

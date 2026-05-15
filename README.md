@@ -151,7 +151,7 @@ Update `status` field to `read` or `replied` to track follow-ups.
 ### Branding
 - Update company name throughout (search for "innovagxpsystems")
 - Replace email: `info@innovagxpsystems.com`
-- Replace phone: `+1 (800) 000-0000`
+- Replace phone: `+1 (214) 807-5554`
 - Add your logo in `public/` and update `Navbar.tsx`
 
 ### Colors

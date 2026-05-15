@@ -113,7 +113,7 @@ export default function ContactPage() {
                       <div>
                         <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">Phone</div>
                         <div className="text-stone-900 font-medium group-hover:text-orange-500 transition-colors">
-                          +1 (800) 000-0000
+                          +1 (214) 807-5554
                         </div>
                       </div>
                     </a>
